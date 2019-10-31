@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       list.each do |name|
         pigeons_of_nyc[name] = {} unless nil != pigeons_of_nyc[name]
         pigeons_of_nyc[name][key] = [] unless nil != pigeons_of_nyc[name][key]
-        pigeons_of_nyc[name][key].push(quality)
+        pigeons_of_nyc[name][key].push(quality.to_s)
       end
     end
 
