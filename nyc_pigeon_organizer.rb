@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  pigeons_of_nyc = {{}}
+  pigeons_of_nyc = {{{}}}
   data.each do |key,value|
 
     value.each do |quality, list|
