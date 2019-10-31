@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
     value.each do |quality, list|
       list.each do |name|
-        pigeons_of_nyc[name] = {} unless nil!
+        pigeons_of_nyc[name] = {} unless ! nil
         pigeons_of_nyc[name][key] = quality
       end
     end
